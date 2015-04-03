@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">APRSdroid Speaker</string>
+
+    <string name="enable_speaker">Enable APRSdroid Speaker</string>
+    <string name="enable_speaker_summary">Read aloud incoming messages and position reports from APRSdroid</string>
+
+
+    <string name="test">Test Speaker</string>
+    <string name="test_summary">Synthesize some voice!</string>
+
+    <string name="cat_speak">Speaker Configuration</string>
+
+    <string name="nato">Use NATO Phonetic Alphabet</string>
+    <string name="nato_summary">Read DO1GL as Delta-Oscar-One-Golf-Lima</string>
+
+    <string name="events">Read APRSdroid events</string>
+    <string name="messages">Read messages</string>
+    <string name="own_positions">Read own positions</string>
+    <string name="positions">Read positions</string>
+
+    <string name="error_tts_load">Error starting Text-to-Speech for English!</string>
+    <!-- read aloud strings -->
+    <string name="read_started">APRS-droid started.</string>
+    <string name="read_stopped">APRS-droid stopped.</string>
+    <string name="read_txpos">Transmitted position.</string>
+
+    <!-- message: %1$s = callsign, %2$s = message -->
+    <string name="read_message">Message from %1$s: %2$s</string>
+
+    <!-- position: %1$s = callsign, %2$1.0f = distance, %3$s = bearing -->
+    <string name="read_position">"%1$s is %2$1.0f km %3$s"</string>
+
+    <string-array name="read_nato_alphabet">
+        <item>Alfa</item>
+        <item>Bravo</item>
+        <item>Charlie</item>
+        <item>Delta</item>
+        <item>Echo</item>
+        <item>Foxtrot</item>
+        <item>Golf</item>
+        <item>Hotel</item>
+        <item>India</item>
+        <item>Juliett</item>
+        <item>Kilo</item>
+        <item>Lima</item>
+        <item>Mike</item>
+        <item>November</item>
+        <item>Oscar</item>
+        <item>Papa</item>
+        <item>Quebec</item>
+        <item>Romeo</item>
+        <item>Sierra</item>
+        <item>Tango</item>
+        <item>Uniform</item>
+        <item>Victor</item>
+        <item>Whiskey</item>
+        <item>X-ray</item>
+        <item>Yankee</item>
+        <item>Zulu</item>
+    </string-array>
+
+    <string-array name="read_bearing">
+        <item>North</item>
+        <item>North-East</item>
+        <item>East</item>
+        <item>South-East</item>
+        <item>South</item>
+        <item>South-West</item>
+        <item>West</item>
+        <item>North-West</item>
+    </string-array>
+</resources>

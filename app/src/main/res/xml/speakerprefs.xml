@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="enable_speaker"
+        android:title="@string/enable_speaker"
+        android:summary="@string/enable_speaker_summary"
+        android:defaultValue="true" />
+
+    <Preference
+        android:key="test"
+        android:title="@string/test"
+        android:summary="@string/test_summary" />
+
+    <PreferenceCategory
+        android:title="@string/cat_speak">
+
+        <CheckBoxPreference
+            android:key="nato"
+            android:title="@string/nato"
+            android:summary="@string/nato_summary"
+            android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="events"
+        android:title="@string/events"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="messages"
+        android:title="@string/messages"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+            android:key="own_positions"
+            android:title="@string/own_positions"
+            android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="positions"
+        android:title="@string/positions"
+        android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
