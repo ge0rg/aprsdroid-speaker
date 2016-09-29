@@ -103,7 +103,7 @@ public class SpeakerService extends Service
 				break;
 			case "SERVICE_STARTED":
 				user_callsign = intent.getStringExtra("callsign");
-				if (prefs.getBoolean("events", true))
+				if (prefs.getBoolean("events", true) && !aprsdroid_running)
 					addText(getString(R.string.read_started));
 				aprsdroid_running = true;
 				positionTimestamps.clear();
