@@ -20,6 +20,8 @@
             <intent-filter>
                 <action android:name="org.aprsdroid.app.SERVICE_STARTED" />
                 <action android:name="org.aprsdroid.app.SERVICE_STOPPED" />
+                <action android:name="org.aprsdroid.app.LINK_ON" />
+                <action android:name="org.aprsdroid.app.LINK_OFF" />
                 <action android:name="org.aprsdroid.app.POSITION" />
                 <action android:name="org.aprsdroid.app.MESSAGE" />
             </intent-filter>

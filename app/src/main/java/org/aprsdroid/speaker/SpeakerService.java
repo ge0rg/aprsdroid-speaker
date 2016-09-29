@@ -113,6 +113,14 @@ public class SpeakerService extends Service
 					addText(getString(R.string.read_stopped));
 				aprsdroid_running = false;
 				break;
+			case "LINK_OFF":
+				if (prefs.getBoolean("events", true))
+					addText(getString(R.string.read_linkoff));
+				break;
+			case "LINK_ON":
+				if (prefs.getBoolean("events", true))
+					addText(getString(R.string.read_linkon));
+				break;
 			case "MESSAGE":
 				String source = intent.getStringExtra("source");
 				String message = intent.getStringExtra("body");

@@ -22,6 +22,8 @@
     <!-- read aloud strings -->
     <string name="read_started">APRS-droid started.</string>
     <string name="read_stopped">APRS-droid stopped.</string>
+    <string name="read_linkon">TNC connected.</string>
+    <string name="read_linkoff">TNC disconnected.</string>
     <string name="read_txpos">Transmitted position.</string>
 
     <!-- message: %1$s = callsign, %2$s = message -->
